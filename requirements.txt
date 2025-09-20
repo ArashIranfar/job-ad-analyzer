@@ -31,3 +31,33 @@ flake8>=6.0.0
 # Optional: for async processing (if you want to add async later)
 # aiohttp>=3.8.0
 # asyncio-throttle>=1.0.0
+
+# For loading environment variables from .env file
+python-dotenv
+
+# For data manipulation, analysis, and creating CSV/Excel files
+pandas
+
+# For writing to .xlsx Excel files (used by pandas)
+openpyxl
+
+# For making HTTP requests to scrape web pages
+requests
+
+# For parsing HTML content from scraped pages
+beautifulsoup4
+
+# A high-performance parser for BeautifulSoup
+lxml
+
+# For converting HTML into clean, readable Markdown/text
+html2text
+
+# For interacting with Large Language Models (LLMs) like OpenAI
+langchain-openai
+
+# For handling retries on failed network requests (e.g., to the LLM)
+tenacity
+
+# For displaying a smart progress bar in the terminal
+tqdm
