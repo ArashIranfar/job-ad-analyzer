@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Secrets - IMPORTANT
+.env
+*.env
+
+# Generated data files - DO NOT COMMIT RESULTS
+# This ensures that only the input templates are tracked.
+data/output/
+data/processed/
+data/raw/
+data/deepseek.zip
+data/input/my_master_prompt.txt
+# Logs
+logs/
+*.log
+
+# Temporary files from this project
+directory.py
+codebase.txt
+structure.txt
+
+# OS-specific
+.DS_Store
+Thumbs.db
