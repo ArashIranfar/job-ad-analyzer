@@ -57,6 +57,9 @@ logs/
 directory.py
 codebase.txt
 structure.txt
+fix_encoding.py
+test_app.py
+tests/
 
 # OS-specific
 .DS_Store
